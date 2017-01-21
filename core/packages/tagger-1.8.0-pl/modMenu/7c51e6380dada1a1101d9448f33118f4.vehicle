@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      'de559e5763aff8d1d446432faf837477' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"tagger","controller":"index","haslayout":1,"lang_topics":"tagger:default","assets":"","help_url":"","parent":0}',
+        'guid' => '452578a545db9712fae840dc08b55257',
+        'native_key' => 1,
+        'signature' => '81ad2c77555f0c9869353da757dcfc38',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'tagger',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '127960cf9cb422e7903a2190d9a9f261',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '7c51e6380dada1a1101d9448f33118f4',
+  'native_key' => 'tagger.menu.tagger',
+  'object' => '{"text":"tagger.menu.tagger","parent":"components","action":1,"description":"tagger.menu.tagger_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);
